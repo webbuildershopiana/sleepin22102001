@@ -10,7 +10,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 
-   <title>TITLE</title>
+   <title>fethermat</title>
 
 <meta name="description" content=DESCRIPTION>
 <meta name="generator" content=META_GENERATOR>
@@ -55,7 +55,6 @@
    }
 </script>
 
-   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:regular&amp;subset=latin&amp;display=swap"/>
    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:regular,700&amp;subset=latin&amp;display=swap"/>
  
@@ -93,7 +92,7 @@
          <li class="nav-item"></li>
          <li class="nav-item dropdown"></li>
         </ul>
-        <form method="get" class="d-flex"></form>
+        <form method="get" id="izdd93" class="d-flex"></form>
        </div>
       </div>
      </nav>
@@ -1683,6 +1682,13 @@
     </div>
    </div>
   </div>
+  <script>var props = {"izdd93":{"name":"","target":"_self","method":"POST","url":"https://api.shopiana.in/api/v1/wbWebsite/1151/form/formData?store=sleepin22102001","emailenable":false}};
+          var ids = Object.keys(props).map(function(id) { return '#'+id }).join(',');
+          var els = document.querySelectorAll(ids);
+          for (var i = 0, len = els.length; i < len; i++) {
+            var el = els[i];
+            (function({name:t,method:e,url:n,emailenable:r}){if(t){const o=this;this.addEventListener("submit",i=>{i.preventDefault();const a=new FormData(o);a.append("emailEnabled",r),a.append("formName",t),fetch(n,{method:e,body:a}).then(t=>{if(t.ok)return t.json();throw new Error("API call failed")}).then(t=>{console.log("API response:",t)}).catch(t=>{console.error("Error during API call:",t)})})}else console.log("somthing went wrong")}.bind(el))(props[el.id]);
+          }</script>
  </body>
 </html>
 </html>
